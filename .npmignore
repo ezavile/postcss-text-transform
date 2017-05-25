@@ -1,6 +1,7 @@
 .*
 *.map
 *.spec.*
+dist/*.css
 .nyc_output/
 .vscode/
 coverage/
