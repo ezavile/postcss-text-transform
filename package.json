@@ -1,8 +1,8 @@
 {
   "name": "postcss-text-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A PostCSS plugin to transform the text.",
-  "main": "index.js",
+  "main": "dist/plugin.js",
   "scripts": {
     "copyFakeStyle": "cpx \"src/*.css\" dist/",
     "clean": "rimraf dist coverage *.log",
