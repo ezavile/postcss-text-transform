@@ -18,7 +18,7 @@ What is this? For example, you have the following CSS file (I'm using [postcss-e
 ```css
 .u {
   @each $color in green, yellow, red {
-    @textTransform $color, upperFirst, $colorTransformed {
+    @text-transform $color, upperFirst, $colorTransformed {
       &-bg$(colorTransformed) {
         background-color: $color;
       }
@@ -59,7 +59,7 @@ postcss([ postcssTextTransform() ]);
 ```
 
 ```css
-@textTransform $text, transformation, $textTransformed { ... }
+@text-transform $text, transformation, $textTransformed { ... }
 ```
 
 **Transformations**
