@@ -1,6 +1,6 @@
 .componentNameCapitalize {
   @each $color in green, yellow, red {
-    @textTransform $color, capitalize, $colorTransformed {
+    @text-transform $color, capitalize, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
@@ -10,7 +10,7 @@
 
 .componentNameLowerCase {
   @each $color in green, yellow, red {
-    @textTransform $color, lowerCase, $colorTransformed {
+    @text-transform $color, lowerCase, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
@@ -20,7 +20,7 @@
 
 .componentNameCamelCase {
   @each $color in green, yellow, red {
-    @textTransform $color, camelCase, $colorTransformed {
+    @text-transform $color, camelCase, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
@@ -30,7 +30,7 @@
 
 .componentNameLowerFirst {
   @each $color in green, yellow, red {
-    @textTransform $color, lowerFirst, $colorTransformed {
+    @text-transform $color, lowerFirst, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
@@ -40,7 +40,7 @@
 
 .componentNameUpperCase {
   @each $color in green, yellow, red {
-    @textTransform $color, upperCase, $colorTransformed {
+    @text-transform $color, upperCase, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
@@ -50,7 +50,7 @@
 
 .componentNameUpperFirst {
   @each $color in green, yellow, red {
-    @textTransform $color, upperFirst, $colorTransformed {
+    @text-transform $color, upperFirst, $colorTransformed {
       &--bg$(colorTransformed) {
         background-color: $color;
       }
