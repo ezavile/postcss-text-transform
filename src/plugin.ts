@@ -4,7 +4,7 @@ import { IParams, processParams, transform } from './utils';
 
 const postcssTextTransform = postcss.plugin('postcss-text-transform', (opts) => {
     return (css) => {
-      css.walkAtRules('textTransform', atRule => {
+      css.walkAtRules('text-transform', atRule => {
         const params: IParams = processParams(atRule.params);
         try {
           const textTransformed = transform(params);
