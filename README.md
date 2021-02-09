@@ -1,3 +1,5 @@
+[DEPRECATED] - Use [@postcss-plugins/text-transform](https://github.com/ezavile/postcss-plugins/tree/master/packages/text-transform) instead
+
 # postcss-text-transform
 
 [![Travis](https://img.shields.io/travis/ezavile/postcss-text-transform.svg?style=flat-square)](https://travis-ci.org/ezavile/postcss-text-transform)
